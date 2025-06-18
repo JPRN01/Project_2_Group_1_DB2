@@ -68,8 +68,8 @@ The following metrics are computed via Hadoop MapReduce jobs:
 ## Custom Analyses
 The following additional metrics are computed via Hadoop MapReduce jobs:
 
-1. **Total homicide victims per country (2000–2020)**  
-2. **Total homicide victims per region per year (2000–2020)**  
-3. **Total homicide victims per sub‑region per year (2000–2020)**  
-4. **Total homicide victims per region, year, and sex (2001–2021)**  
-5. **Total homicide victims per sub‑region, year, and sex (2001–2021)**
+24. **Total homicide victims per country (2000–2020)**  
+25. **Total homicide victims per region per year (2000–2020)**  
+26. **Total homicide victims per sub‑region per year (2000–2020)**  
+27. **Total homicide victims per region, year, and sex (2001–2021)**  
+28. **Total homicide victims per sub‑region, year, and sex (2001–2021)**
