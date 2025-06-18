@@ -1,6 +1,6 @@
 # UN Data Visualization Project
 Project 2 of the Databases II Coursework. Project created and worked from May to June 2023.
-A three-part data processing and visualization pipeline that extracts statistics from the United Nations data portal, processes them with Hadoop MapReduce jobs, stores results in MariaDB, and exposes an interactive web application for exploration.
+A three-part data processing and visualization pipeline that extracts statistics from the United Nations data portal, processes them with Hadoop MapReduce jobs, stores results in MongoDB, and exposes an interactive web application for exploration.
 
 ## Table of Contents
 
@@ -15,23 +15,22 @@ This project implements:
 
 1. **Web Crawler**  
    - Scrapes UN data from [data.un.org/Explorer.aspx](http://data.un.org/Explorer.aspx).  
-   - Retrieves homicide statistics (total and by sex), WHO health statistics, and tourism data. :contentReference[oaicite:0]{index=0}
+   - Retrieves homicide statistics (total and by sex), WHO health statistics, and tourism data.
 
 2. **Hadoop MapReduce Jobs**  
    - Processes crawler output to compute aggregated metrics.  
-   - Loads results into a MariaDB/MySQL database for querying. :contentReference[oaicite:1]{index=1}
+   - Loads results into a MongoDB database for querying.
 
 3. **Web Application**  
-   - Dashboard that reads from MariaDB and renders interactive charts.  
+   - Dashboard that reads from MongoDB and renders interactive charts.  
    - Allows filtering by dimensions (country, year, decade, sex, economic quintile, etc.).
 
 ## Features
 
 - **Automated Data Extraction**  
 - **Distributed Data Processing** with Hadoop  
-- **Relational Storage** in MariaDB  
-- **Interactive Visualizations** using Chart.js or D3.js  
-- **Extensible**: Add your own MapReduce jobs or charts
+- **Non-Relational Storage** in MongoDB  
+- **Interactive Visualizations** using D3.js  
 
 ## Hadoop Calculations
 The following metrics are computed via Hadoop MapReduce jobs:
