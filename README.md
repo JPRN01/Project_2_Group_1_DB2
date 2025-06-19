@@ -1,3 +1,4 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/JPRN01/Project_2_Group_1_DB2)
 # UN Data Visualization Project
 Project 2 of the Databases II Coursework. Project created and worked from May to June 2023.
 A three-part data processing and visualization pipeline that extracts statistics from the United Nations data portal, processes them with Hadoop MapReduce jobs, stores results in MongoDB, and exposes an interactive web application for exploration.
